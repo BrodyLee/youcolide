@@ -1,0 +1,122 @@
+/*!
+ * Copyright (c) 2014 Tamble, Inc.
+ * Licensed under MIT (https://github.com/tamble/jquery-ui-daterangepicker/raw/master/LICENSE.txt)
+ */
+
+.comiseo-daterangepicker-triggerbutton.ui-button {
+	text-align: left;
+	width: 222px;
+    background: transparent;
+    border: 1px solid #e7e8e9;
+    border-radius: 2px;
+    color: #cbcbcb;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+}
+
+.comiseo-daterangepicker {
+position: absolute;
+    padding: 5px;
+    border: 1px solid #e7e8e9;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 2px;
+    top: 45px !important;
+}
+}
+
+.comiseo-daterangepicker-mask {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	/* required for IE */
+	background-color: #fff;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+
+.comiseo-daterangepicker-presets,
+.comiseo-daterangepicker-calendar {
+	display: table-cell;
+	vertical-align: top;
+	height: 150px;
+}
+
+.comiseo-daterangepicker-right .comiseo-daterangepicker-presets {
+	padding: 2px 7px 7px 2px;
+}
+
+.comiseo-daterangepicker-left .comiseo-daterangepicker-presets {
+	padding: 2px 2px 7px 7px;
+    float: left;
+    width: 480px;
+}
+
+.ui-menu {
+	white-space: nowrap;
+}
+
+.comiseo-daterangepicker .ui-widget-content,
+.comiseo-daterangepicker .ui-datepicker .ui-state-highlight {
+	border-width: 0;
+    background: #fff
+}
+
+.comiseo-daterangepicker > .comiseo-daterangepicker-main.ui-widget-content {
+	border-bottom-width: 1px;
+}
+
+.comiseo-daterangepicker .ui-datepicker .ui-datepicker-today .ui-state-highlight {
+	border-width: 1px;
+}
+
+.comiseo-daterangepicker-right .comiseo-daterangepicker-calendar {
+	border-left-width: 1px;
+	padding-left: 5px;
+}
+
+.comiseo-daterangepicker-left .comiseo-daterangepicker-calendar {
+	border-right-width: 1px;
+	padding-right: 5px;
+}
+
+.comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel {
+	float: left;
+}
+
+.comiseo-daterangepicker-left .comiseo-daterangepicker-buttonpanel {
+	margin:0 auto;
+    width: 263px;
+}
+
+.comiseo-daterangepicker-buttonpanel > button  {
+	margin-top: 6px;
+}
+
+.comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel > button {
+	margin-right: 6px;
+}
+
+.comiseo-daterangepicker-left .comiseo-daterangepicker-buttonpanel > button {
+  border-radius: 2px;
+  background-color: rgb(0, 166, 232);
+ color: #fff;
+  width: 120px;
+  height: 40px;
+border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}
+
+/* themeable styles */
+.comiseo-daterangepicker-calendar .ui-state-highlight a.ui-state-default {
+
+	color: #fff;
+}
